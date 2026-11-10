@@ -1,0 +1,25 @@
+{
+  // https://github.com/tsconfig/bases/blob/main/bases/node26.json
+  "$schema": "https://www.schemastore.org/tsconfig",
+  "display": "Node 26",
+  "_version": "26.0.0",
+
+  "compilerOptions": {
+    "target": "es2025",
+    "strict": true,
+    "noEmit": true,
+    "declaration": false,
+
+    "lib": ["es2025", "ESNext.Collection", "ESNext.Temporal"],
+    "types": ["node"],
+    "skipLibCheck": true,
+
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+
+    "erasableSyntaxOnly": true,
+    "rewriteRelativeImportExtensions": true
+  }
+}

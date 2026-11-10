@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "format": "prettier . --write",
+    "typecheck": "tsc",
+    "convert": "node tools/convert-sql-2024.ts",
+    "update": "node tools/update.ts"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "fast-xml-parser": "5.12.0",
+    "prettier": "3.9.10",
+    "typescript": "7.0.2"
+  }
+}
