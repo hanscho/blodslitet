@@ -9,7 +9,7 @@ import { eventorNameCorrections } from './convert-2024-eventor-name-corrections.
 import { eventorReplacements } from './convert-2024-eventor-replacements.ts';
 import { eventorUnlinkMismatches } from './convert-2024-eventor-unlink-mismatch.ts';
 import { eventorUnlinkMissings } from './convert-2024-eventor-unlink-missing.ts';
-import { mergeDuplicates } from './merge.service.ts';
+import { mergeDuplicates, mergeEventorDuplicates } from './merge.service.ts';
 import { webRead, webWrite } from './web.service.ts';
 
 function normalizeName(name: string): string {
@@ -210,6 +210,7 @@ function convertCompetitors(): { competitors: Competitor[]; clubs: Club[] } {
   }
 
   competitors = mergeDuplicates(competitors);
+  competitors = mergeEventorDuplicates(competitors);
 
   const clubs = createClubs(competitors);
   for (const competitor of competitors) {
