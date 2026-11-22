@@ -9,6 +9,7 @@ import { eventorNameCorrections } from './convert-2024-eventor-name-corrections.
 import { eventorReplacements } from './convert-2024-eventor-replacements.ts';
 import { eventorUnlinkMismatches } from './convert-2024-eventor-unlink-mismatch.ts';
 import { eventorUnlinkMissings } from './convert-2024-eventor-unlink-missing.ts';
+import { lastNameCorrections } from './convert-2024-last-name-corrections.ts';
 import { mergeDuplicates, mergeEventorDuplicates } from './merge.service.ts';
 import { webRead, webWrite } from './web.service.ts';
 
@@ -107,6 +108,13 @@ function fixName(competitor: Competitor) {
         competitor.eventorId = undefined;
       }
     }
+  }
+
+  const lastNameCorrection = lastNameCorrections.get(name);
+  if (lastNameCorrection) {
+    unused.lastNameCorrections.delete(name);
+    competitor.firstName = lastNameCorrection.firstName;
+    competitor.lastName = lastNameCorrection.lastName;
   }
 }
 
@@ -228,6 +236,7 @@ function convertCompetitors(): { competitors: Competitor[]; clubs: Club[] } {
 const unused = {
   encodingCorrection: new Set<string>(encodingCorrections.keys()),
   eventorEncodingCorrection: new Set<string>(eventorEncodingCorrections.keys()),
+  lastNameCorrections: new Set<string>(lastNameCorrections.keys()),
   eventorReplacements: new Set<number>(eventorReplacements.keys()),
   eventorNameCorrections: new Set<number>(eventorNameCorrections.keys()),
   eventorUnlinkMismatches: new Set<number>(eventorUnlinkMismatches.keys()),
