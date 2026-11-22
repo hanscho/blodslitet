@@ -62,7 +62,7 @@ Christensen
 Knudsen
 Nielsen
 Evensen
-Ali
+#Ali
 Sæther
 Aas
 Hanssen
@@ -160,7 +160,7 @@ Johannesen
 Egeland
 Nordby
 Jonassen
-Aase
+#Aase
 Sand
 Bye
 Stokke
@@ -197,7 +197,7 @@ Nikolaisen
 Holen
 Stene
 Fosse
-Helle
+#Helle
 Langeland
 Kvamme
 Sletten
@@ -344,14 +344,14 @@ Guttormsen
 Volden
 Holst
 Bergan
-Ask
+#Ask
 Robertsen
 Høyland
 Kaspersen
 Lundberg
 Hope
 Bang
-Bjørge
+#Bjørge
 Nymoen
 Bjørklund
 Johnsrud
@@ -698,7 +698,7 @@ Albrigtsen
 Severinsen
 Angell
 Schjølberg
-Roland
+#Roland
 Hellerud
 Risa
 Persen
@@ -706,7 +706,7 @@ Begum
 Rosland
 Wathne
 Lillebø
-Lea
+#Lea
 Henden
 Kvammen
 Helmersen
@@ -803,7 +803,7 @@ Torvik
 Storsveen
 Løvaas
 Frøyland
-Roald
+#Roald
 Mohammadi
 Jahren
 Fuglestad
@@ -858,7 +858,7 @@ Alnes
 Aanonsen
 Said
 Randen
-Eira
+#Eira
 Rogstad
 Kittilsen
 Jahr
@@ -1004,7 +1004,7 @@ Grimsrud
 Semb
 Kjos
 Hætta
-Sara
+#Sara
 Alsaker
 Risan
 Dyrnes
@@ -1205,7 +1205,7 @@ Eidissen
 Bøen
 Øksnes
 Skorpen
-Sanne
+#Sanne
 Håheim
 Bergerud
 Rosenberg
@@ -1359,7 +1359,7 @@ Nordeide
 Kruse
 Flo
 Espe
-Erland
+#Erland
 Bunes
 Bui
 Truong
@@ -1368,7 +1368,7 @@ Fauskanger
 Syrstad
 Ottosen
 Erikstad
-Adam
+#Adam
 Williams
 Torvund
 Engeset
@@ -1398,7 +1398,7 @@ Holsen
 Flem
 Tømmerås
 Torstensen
-Stein
+#Stein
 Smeby
 Kåsa
 Heyerdahl
@@ -1561,7 +1561,7 @@ Daae
 Aulie
 Velde
 Tveitan
-Thomas
+#Thomas
 Stange
 Koch
 Holum
@@ -1657,7 +1657,7 @@ Tallaksen
 Svela
 Salamonsen
 Reppe
-Rein
+#Rein
 Olavesen
 Muri
 Lassen
@@ -1712,7 +1712,7 @@ Chaudhry
 Westrum
 Sverdrup
 Rokstad
-Magnus
+#Magnus
 Flaa
 Veum
 Slinning
@@ -1771,7 +1771,7 @@ Hindenes
 Bjørkedal
 Tande
 Svindland
-Sture
+#Sture
 Sperre
 Nystrøm
 Haddeland
@@ -1853,7 +1853,7 @@ Hamnes
 Fiskvik
 Bjerkeli
 Aaland
-Selmer
+#Selmer
 Otterstad
 Løvland
 Kolsrud
@@ -1876,7 +1876,7 @@ Dyngeland
 Bjørndalen
 Baltzersen
 Nyrud
-Martin
+#Martin
 Løver
 Grongstad
 Engeseth
@@ -1895,7 +1895,7 @@ Saltnes
 Naustdal
 Engum
 Ekrem
-Bjørn
+#Bjørn
 Vedal
 Torset
 Singstad
@@ -1970,7 +1970,7 @@ Mellum
 Lydersen
 Heggøy
 Haraldseid
-Boye
+#Boye
 Valvik
 Stensvold
 Safi
@@ -2064,7 +2064,7 @@ Skotnes
 Skarbø
 Sandbæk
 Reksten
-Noor
+#Noor
 Bratsberg
 Berre
 Tesfay
@@ -2193,7 +2193,7 @@ Skinstad
 Silden
 Sakariassen
 Rekstad
-Lone
+#Lone
 Kausar
 Helgheim
 Haveland
@@ -2226,7 +2226,7 @@ Meier
 Hegdal
 Eidsvik
 Tetlie
-Sander
+#Sander
 Løvlien
 Knarvik
 Jøssang
@@ -2418,7 +2418,7 @@ Stormoen
 Skåre
 Lomeland
 Lindvik
-Guttorm
+#Guttorm
 Fossmo
 Bruheim
 Bartnes
@@ -2565,7 +2565,7 @@ Paus
 Lundquist
 Kowalski
 Klev
-Hilde
+#Hilde
 Hagberg
 Grebstad
 Folland
@@ -2775,7 +2775,7 @@ Leivestad
 Leidland
 Kvia
 Kleppa
-Kim
+#Kim
 Grønlie
 Garshol
 Fyhn
@@ -2803,7 +2803,7 @@ Takvam
 Skjolden
 Røyrvik
 Røyland
-Ross
+#Ross
 Oksnes
 Nome
 Mørkved
@@ -3402,7 +3402,7 @@ Rolfsnes
 Monge
 Klavenes
 Kjøde
-Hermann
+#Hermann
 Hallberg
 Grønberg
 Gjernes
@@ -3469,7 +3469,9 @@ Engebråten
 Bøhmer
 Azizi
 Ahlsen
-Abdulla`.split('\n'),
+Abdulla`
+    .split('\n')
+    .filter((n) => !n.startsWith('#')),
 );
 
 export function analyzeLastNameMixups(competitors: Competitor[]): void {
