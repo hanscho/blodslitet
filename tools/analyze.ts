@@ -1,4 +1,5 @@
 import * as fs from 'node:fs';
+import { analyzeLastNameMixups } from './analyze-last-name.service.ts';
 import type { Club } from './club.model.ts';
 import type { Competitor } from './competitor.model.ts';
 import { currentYear, firstYear } from './constants.ts';
@@ -66,6 +67,8 @@ function analyzeNamesAndClubs(
 }
 
 function analyzeCompetitors(competitors: Competitor[], eventorMap: Map<number, IofCompetitor>): void {
+  analyzeLastNameMixups(competitors);
+
   for (const competitor of competitors) {
     analyzeCompetitor(competitor, eventorMap);
   }
