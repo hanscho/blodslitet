@@ -88,6 +88,8 @@ function validateNoDuplicates(competitors: Competitor[], clubs: Club[]): void {
   }
 }
 
+const confirmedUnusualEventorNames = new Set<string>(['Per (Jakob) Kjus']);
+
 export function webWrite(competitors: Competitor[], clubs: Club[]): void {
   if (htmlTemplate === undefined) {
     throw new Error('Must call readWeb before writeWeb');
@@ -102,8 +104,10 @@ export function webWrite(competitors: Competitor[], clubs: Club[]): void {
   for (const c of webCompetitors) {
     const name = `${c.firstName} ${c.lastName}`;
     if (!nameRegex.test(name)) {
-      // add character to above regex if it looks ok
-      console.log(`\n\nUNEXPECTED CHARACTER IN NAME: '${name}'`);
+      if (!confirmedUnusualEventorNames.has(name)) {
+        // add character to above regex if it looks ok
+        console.log(`\n\nUNEXPECTED CHARACTER IN NAME: '${name}'`);
+      }
     }
 
     competitorLines.push(mapCompetitorToLine(c));
