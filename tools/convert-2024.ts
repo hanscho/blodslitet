@@ -5,6 +5,7 @@ import { firstYear, nameRegex, sqlSourcePath } from './constants.ts';
 import { clubCorrections } from './convert-2024-club-corrections.ts';
 import { encodingCorrections, eventorEncodingCorrections } from './convert-2024-encoding-corrections.ts';
 import { eventorClubs } from './convert-2024-eventor-clubs.ts';
+import { eventorReplacements } from './convert-2024-eventor-replacements.ts';
 import { eventorUnlinkMismatches } from './convert-2024-eventor-unlink-mismatch.ts';
 import { eventorUnlinkMissings } from './convert-2024-eventor-unlink-missing.ts';
 import { webRead, webWrite } from './web.service.ts';
@@ -69,6 +70,18 @@ function fixName(competitor: Competitor) {
     }
   }
   if (competitor.eventorId !== undefined) {
+    const eventorReplacement = eventorReplacements.get(competitor.eventorId);
+    if (
+      eventorReplacement &&
+      competitor.firstName === eventorReplacement.r[0] &&
+      competitor.lastName === eventorReplacement.r[1]
+    ) {
+      unused.eventorReplacements.delete(competitor.eventorId);
+      competitor.eventorId = eventorReplacement.newId;
+      competitor.firstName = eventorReplacement.e[0];
+      competitor.lastName = eventorReplacement.e[1];
+    }
+
     const unlink1 = eventorUnlinkMismatches.get(competitor.eventorId);
     if (unlink1 && competitor.firstName === unlink1.r[0] && competitor.lastName === unlink1.r[1]) {
       unused.eventorUnlinkMismatches.delete(competitor.eventorId);
@@ -198,6 +211,7 @@ function convertCompetitors(): { competitors: Competitor[]; clubs: Club[] } {
 const unused = {
   encodingCorrection: new Set<string>(encodingCorrections.keys()),
   eventorEncodingCorrection: new Set<string>(eventorEncodingCorrections.keys()),
+  eventorReplacements: new Set<number>(eventorReplacements.keys()),
   eventorUnlinkMismatches: new Set<number>(eventorUnlinkMismatches.keys()),
   eventorUnlinkMissings: new Set<number>(eventorUnlinkMissings.keys()),
   eventorClubs: new Set<string>(eventorClubs.keys()),
