@@ -1,4 +1,5 @@
 import { currentYear, firstYear } from './constants.ts';
+import { mergeCompetitors } from './merge.service.ts';
 import { webRead, webWrite } from './web.service.ts';
 
 type MergeArgs = {
@@ -22,6 +23,11 @@ function main(): void {
   let { competitors, clubs } = webRead();
 
   switch (args.year) {
+    case 2025:
+      competitors = mergeCompetitors(competitors, '2025-merge-perfect.txt');
+      competitors = mergeCompetitors(competitors, '2025-merge-perfect.eventor.txt');
+      competitors = mergeCompetitors(competitors, '2025-merge-superset.txt');
+      break;
     default:
       throw new Error(`Merge for year ${args.year} not implemented`);
   }

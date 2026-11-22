@@ -1,0 +1,9 @@
+{"firstName":"Boye Dirro","lastName":"Bøhlerengen","club":"Oppsal Orientering","participations":[[2025,"H-åpen"]]}
+  RESULT {"eventorId":5647,"firstName":"Boye Dirro","lastName":"Bøhlerengen","club":"Oppsal Orientering","participations":[[1980,"H -18"],[1981,"H -18"],[1982,"H -18"],[1983,"H -18"],[1984,"H -18"],[1985,"H -18"],[1987,"H -18"],[1988,"H 19-"],[1989,"H 19-"],[1992,"H 19-"],[1993,"H 19-"],[1994,"H 19-"],[1995,"H 19-"],[1996,"H 19-"],[1998,"H 19-"],[2003,"H 21-"],[2008,"H35"],[2017,"Herrer åpen B"]]}
+  # H-åpen (age 56), H-åpen (age 56)
+  # H -18 (age 11), Herrer åpen B (age 48)
+  EVENTOR {"eventorId":5647,"firstName":"Boye Dirro","lastName":"Bøhlerengen","club":"Oppsal Orientering","birthYear":1969,"clubId":"268"}
+{"firstName":"Eigil","lastName":"Nielsen","club":"Horsens OK","participations":[[2025,"B-åpen 17-"]]}
+  RESULT {"firstName":"Eigil","lastName":"Nielsen","club":"Horsens OK","participations":[[1991,"H 35-"],[1992,"H 35-"],[1993,"H 35-"]]}
+{"firstName":"Linnea","lastName":"Johnsson","club":"OK Nackhe","participations":[[2025,"D35"]]}
+  RESULT {"firstName":"Linnea","lastName":"Johnsson","club":"OK Nackhe","participations":[[2006,"D17-20"]]}

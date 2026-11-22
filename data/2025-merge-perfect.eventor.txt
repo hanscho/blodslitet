@@ -1,0 +1,14 @@
+{"firstName":"Anita","lastName":"Sælevik","club":"Vindafjord Orienteringslag","participations":[[2025,"B-åpen 17-"]]}
+  RESULT {"firstName":"Anita","lastName":"Sælevik","club":"Haugesund IL Orientering","participations":[[2012,"D Åpen"]]}
+  # B-åpen 17- (age 54), B-åpen 17- (age 54)
+  EVENTOR {"eventorId":2313,"firstName":"Anita","lastName":"Sælevik","club":"Vindafjord Orienteringslag","birthYear":1971,"clubId":"378"}
+{"firstName":"Morten Embrik","lastName":"Hovdegard","club":"Halden SK","participations":[[2025,"B-åpen 17-"]]}
+  # B-åpen 17- (age 66), B-åpen 17- (age 66)
+  EVENTOR {"eventorId":95444,"firstName":"Morten Embrik","lastName":"Hovdegard","club":"Halden SK","birthYear":1959,"clubId":"101"}
+{"firstName":"Per Bjarne","lastName":"Myhre","club":"Vindafjord Orienteringslag","participations":[[2025,"B-åpen 17-"]]}
+  RESULT {"firstName":"Per Bjarne","lastName":"Myhre","club":"Haugesund IL Orientering","participations":[[2012,"H Åpen"]]}
+  # B-åpen 17- (age 57), B-åpen 17- (age 57)
+  EVENTOR {"eventorId":2315,"firstName":"Per Bjarne","lastName":"Myhre","club":"Vindafjord Orienteringslag","birthYear":1968,"clubId":"378"}
+{"firstName":"Vebjørn","lastName":"Flatner","club":"Fredrikstad SK","participations":[[2025,"N1-åpen"]]}
+  # N1-åpen (age 8), N1-åpen (age 8)
+  EVENTOR {"eventorId":96159,"firstName":"Vebjørn","lastName":"Flatner","club":"Fredrikstad SK","birthYear":2017,"clubId":"82"}

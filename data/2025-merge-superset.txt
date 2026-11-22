@@ -1,0 +1,5 @@
+{"firstName":"Gry Emilie","lastName":"Granstedt","participations":[[2025,"D-åpen"]]}
+  RESULT {"firstName":"Gry","lastName":"Granstedt","club":"Halden SK","participations":[[2005,"D 11-12"],[2006,"D11-12"],[2007,"D13-14"],[2008,"D13-14"],[2010,"D15-16"],[2011,"D17-18"],[2012,"D17-18"]]}
+  # D-åpen (age 31), D-åpen (age 31)
+  # D 11-12 (age 11), D17-18 (age 18)
+  EVENTOR {"eventorId":3145,"firstName":"Gry","lastName":"Granstedt","birthYear":1994}
