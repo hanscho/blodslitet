@@ -2,6 +2,7 @@
   "type": "module",
   "scripts": {
     "convert": "node tools/convert-2024.ts",
+    "analyze": "node tools/analyze.ts",
     "format": "prettier . --write",
     "typecheck": "tsc"
   },

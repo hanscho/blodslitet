@@ -13,6 +13,12 @@ Prerequisites:
 1. Install [Node 26](https://nodejs.org/en/download) or later
 2. Run `npm ci`
 
+To check data consistency and merge opportunities:
+
+1. In Eventor data exchange, download `competitors.xml` and save it in the `data` folder.
+2. Run `npm run analyze [year]`
+3. Possibly do something with the files created in the `data` folder.
+
 ## History
 
 Until 2024, this was maintained in a MySQL database fronted by PHP scripts.
