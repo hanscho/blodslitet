@@ -220,6 +220,7 @@ function convertCompetitors(): { competitors: Competitor[]; clubs: Club[] } {
   competitors = mergeDuplicates(competitors);
   competitors = mergeEventorDuplicates(competitors);
   competitors = mergeCompetitors(competitors, '2024-merge-perfect.txt');
+  competitors = mergeCompetitors(competitors, '2024-merge-perfect.eventor.txt');
 
   const clubs = createClubs(competitors);
   for (const competitor of competitors) {
