@@ -13,11 +13,15 @@ Prerequisites:
 1. Install [Node 26](https://nodejs.org/en/download) or later
 2. Run `npm ci`
 
-To check data consistency and merge opportunities:
+To update statistics:
 
-1. In Eventor data exchange, download `competitors.xml` and save it in the `data` folder.
-2. Run `npm run analyze [year]`
-3. Possibly do something with the files created in the `data` folder.
+1. Wait for official results.
+2. In Eventor data exchange, download latest `ResultList.xml` and save it in the `data` folder.
+3. Run `npm run update`
+4. In Eventor data exchange, download `competitors.xml` and save it in the `data` folder.
+5. Run `npm run analyze <year>`
+6. Possibly do something with the files created in the `data` folder.
+7. Run `npm run merge <year>`
 
 ## History
 
