@@ -62,10 +62,37 @@ export function webRead(): { competitors: Competitor[]; clubs: Club[] } {
   return { competitors: competitors, clubs: clubs };
 }
 
+function validateNoDuplicates(competitors: Competitor[], clubs: Club[]): void {
+  const competitorIds = new Set<number>();
+  for (const c of competitors) {
+    if (c.eventorId) {
+      if (competitorIds.has(c.eventorId)) {
+        throw new Error(`Refuse to write competitor with duplicate eventorId: ${JSON.stringify(c)}`);
+      }
+      competitorIds.add(c.eventorId);
+    }
+  }
+  const clubIds = new Set<number>();
+  const clubNames = new Set<string>();
+  for (const c of clubs) {
+    if (c.eventorId) {
+      if (clubIds.has(c.eventorId)) {
+        throw new Error(`Refuse to write club with duplicate eventorId: ${JSON.stringify(c)}`);
+      }
+      clubIds.add(c.eventorId);
+    }
+    if (clubNames.has(c.name)) {
+      throw new Error(`Refuse to write club with duplicate name: ${JSON.stringify(c)}`);
+    }
+    clubNames.add(c.name);
+  }
+}
+
 export function webWrite(competitors: Competitor[], clubs: Club[]): void {
   if (htmlTemplate === undefined) {
     throw new Error('Must call readWeb before writeWeb');
   }
+  validateNoDuplicates(competitors, clubs);
 
   const webClubs = createWebClubsMap(clubs);
   const webCompetitors: WebCompetitor[] = competitors.map((c) => mapToWebCompetitor(c, webClubs));
