@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Blodslitets slitere</title>
+    <style>
+      html,
+      body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Arial;
+      }
+      h1,
+      p {
+        margin: 5px;
+      }
+      .o {
+        background-color: green;
+      }
+      .s {
+        background-color: grey;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
+    <script>
+      let agApi;
+      let searchElement;
+
+      const firstYear = 1968;
+      const skippedYears = [2020, 9999];
+      const currentYear = new Date().getFullYear();
+
+      function applyQuickFilter() {
+        agApi.setGridOption('quickFilterText', searchElement.value);
+        searchElement.focus();
+        searchElement.select();
+        // prevent form submission
+        return false;
+      }
+
+      const htmlSafeOneBytes = [];
+      for (let i = '!'.codePointAt(0); i <= `~`.codePointAt(0); i++) {
+        const c = String.fromCodePoint(i);
+        if (c !== '<' && c !== '>' && c !== '&' && c !== '\\') {
+          htmlSafeOneBytes.push(c);
+        }
+      }
+      const oneByteMap = htmlSafeOneBytes.reduce((m, c, i) => m.set(c, i), new Map());
+      function numberFromAscii(value) {
+        if (value === undefined) {
+          return undefined;
+        }
+
+        const modulus = htmlSafeOneBytes.length;
+        let multiplier = 1;
+        let result = 0;
+        for (let c of value) {
+          const byteValue = oneByteMap.get(c);
+          if (byteValue === undefined) {
+            throw new Error(`Could not ASCII number '${value}`);
+          }
+
+          result += multiplier * byteValue;
+          multiplier *= modulus;
+        }
+        return result;
+      }
+
+      // get non-empty lines from <pre> content
+      function getLines(selector) {
+        const element = document.querySelector(selector);
+        // start can have significant tabs...
+        let value = element.innerHTML.trimEnd();
+        // ... so remove empty line at start separately
+        return value.split('\n').filter((line) => line.length > 0);
+      }
+
+      function getCompetitors() {
+        const clubLines = getLines('#clubs');
+        const competitorLines = getLines('#competitors');
+
+        const clubs = clubLines.map((l) => l.split('\t')[1]);
+
+        const competitors = [];
+        for (const line of competitorLines) {
+          const [eventorId, firstName, lastName, clubIndex, ...participations] = line.split('\t');
+          for (let i = 0; i < participations.length; i += 2) {
+            participations[i] = firstYear + numberFromAscii(participations[i]);
+          }
+          competitors.push({
+            count: participations.length / 2,
+            firstName,
+            lastName,
+            club: clubIndex === '' ? undefined : clubs[numberFromAscii(clubIndex)],
+            hasEventor: eventorId.length > 0,
+            years: participations.filter((_v, i) => i % 2 === 0),
+            participations: participations,
+          });
+        }
+
+        return competitors;
+      }
+
+      // use two non-breaking space per year and
+      // one background colored span per participation streak
+      function participationCellRenderer(params) {
+        const years = [...params.value, 9999];
+        let year = firstYear;
+        let skipIndex = 0;
+        let nextSkip = skippedYears[skipIndex];
+        let yearIndex = 0;
+        let nextYear = years[yearIndex];
+
+        let result = '';
+        do {
+          if (nextYear < nextSkip) {
+            result += '&nbsp;&nbsp;'.repeat(nextYear - year);
+            let okCount = 0;
+            do {
+              okCount += 1;
+              year = nextYear + 1;
+              yearIndex += 1;
+              nextYear = years[yearIndex];
+            } while (nextYear === year);
+            result += '<span class="o">' + '&nbsp;&nbsp;'.repeat(okCount) + '</span>';
+          } else {
+            result += '&nbsp;&nbsp;'.repeat(nextSkip - year);
+            // hopefully there won't be a streak of skipped years, so there's one span per skipped year
+            result += '<span class="s">&nbsp;&nbsp;</span>';
+            year = nextSkip + 1;
+            skipIndex = +1;
+            nextSkip = skippedYears[skipIndex];
+          }
+        } while (nextYear < 9999 || nextSkip < 9999);
+        result += '&nbsp;&nbsp;'.repeat(currentYear - year + 1);
+        return result;
+      }
+
+      // display competitors years and classes
+      function onCellFocused(event) {
+        const element = document.querySelector('#competitorInfo');
+        const row = agApi.getDisplayedRowAtIndex(event.rowIndex);
+        const competitor = row?.data;
+        if (competitor) {
+          let competitorInfo = `<b>${competitor.firstName} ${competitor.lastName}</b>, ${competitor.club}<br />`;
+          const participations = competitor.participations;
+          for (let i = 0; i < participations.length; i += 2) {
+            if (i > 0) {
+              competitorInfo += ', ';
+            }
+            competitorInfo += `${participations[i]}: <b>${participations[i + 1]}</b>`;
+          }
+          element.innerHTML = competitorInfo;
+        }
+      }
+
+      // update row count
+      function onFilterChanged() {
+        const element = document.querySelector('#filteredCount');
+        const count = agApi.getDisplayedRowCount();
+        element.innerHTML = `${count} rad${count === 1 ? '' : 'er'}.`;
+      }
+
+      const col = {
+        suppressMovable: true,
+        filter: true,
+        cellDataType: 'text',
+      };
+      const gridOptions = {
+        onCellFocused: onCellFocused,
+        onFilterChanged: onFilterChanged,
+        columnDefs: [
+          {
+            ...col,
+            width: 170,
+            field: 'count',
+            headerName: 'Fullførte',
+            cellDataType: 'number',
+            sort: 'desc',
+            sortIndex: 0,
+            getQuickFilterText: () => '',
+          },
+          { ...col, width: 250, field: 'firstName', headerName: 'Fornavn', sort: 'asc', sortIndex: 1 },
+          { ...col, width: 200, field: 'lastName', headerName: 'Etternavn', sort: 'asc', sortIndex: 2 },
+          { ...col, width: 250, field: 'club', headerName: 'Klubb' },
+          { ...col, width: 100, field: 'hasEventor', headerName: 'Eventor', cellDataType: 'boolean' },
+          {
+            ...col,
+            filter: false,
+            sortable: false,
+            width: 50 + 8 * (currentYear - firstYear),
+            field: 'years',
+            headerName: `${firstYear} - ${currentYear}`,
+            cellDataType: 'object',
+            cellRenderer: participationCellRenderer,
+          },
+        ],
+      };
+
+      function onLoaded() {
+        gridOptions.rowData = getCompetitors();
+        const agGridElement = document.querySelector('#theGrid');
+        agApi = agGrid.createGrid(agGridElement, gridOptions);
+        onFilterChanged();
+
+        searchElement = document.querySelector('#quickFilter');
+        searchElement.focus();
+      }
+
+      document.addEventListener('DOMContentLoaded', onLoaded);
+    </script>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column; height: 100vh">
+      <h1>Blodslitets slitere</h1>
+      <form onsubmit="return applyQuickFilter();">
+        <p>
+          <input
+            id="quickFilter"
+            style="width: 300"
+            type="search"
+            placeholder="Navn og/eller klubb"
+            spellcheck="false"
+          />
+          <button onclick="applyQuickFilter()" style="margin-right: 15px">Søk</button>
+          <span id="filteredCount"></span>
+          <span>Klikk på et navn for å vise årstall og klasser.</span>
+          <span>Ved feil, ta kontakt med forrige løpsleder.</span>
+          <span>Kun godkjente løp teller.</span>
+        </p>
+      </form>
+      <div style="flex: 1; width: 100%">
+        <div id="theGrid" style="width: 100%; height: 100%"></div>
+      </div>
+      <div id="competitorInfo" style="height: 80px; margin-top: 15px"></div>
+      <pre id="clubs" style="display: none">
+      </pre>
+      <pre id="competitors" style="display: none">
+      </pre>
+    </div>
+  </body>
+</html>
