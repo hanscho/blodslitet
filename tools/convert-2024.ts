@@ -5,6 +5,8 @@ import { firstYear, nameRegex, sqlSourcePath } from './constants.ts';
 import { clubCorrections } from './convert-2024-club-corrections.ts';
 import { encodingCorrections, eventorEncodingCorrections } from './convert-2024-encoding-corrections.ts';
 import { eventorClubs } from './convert-2024-eventor-clubs.ts';
+import { eventorUnlinkMismatches } from './convert-2024-eventor-unlink-mismatch.ts';
+import { eventorUnlinkMissings } from './convert-2024-eventor-unlink-missing.ts';
 import { webRead, webWrite } from './web.service.ts';
 
 function normalizeName(name: string): string {
@@ -63,6 +65,19 @@ function fixName(competitor: Competitor) {
         competitor.lastName = eventorEncodingCorrection.lastName;
       } else {
         throw new Error(`Missing encoding correction for ${name}`);
+      }
+    }
+  }
+  if (competitor.eventorId !== undefined) {
+    const unlink1 = eventorUnlinkMismatches.get(competitor.eventorId);
+    if (unlink1 && competitor.firstName === unlink1.r[0] && competitor.lastName === unlink1.r[1]) {
+      unused.eventorUnlinkMismatches.delete(competitor.eventorId);
+      competitor.eventorId = undefined;
+    } else {
+      const unlink2 = eventorUnlinkMissings.get(competitor.eventorId);
+      if (unlink2 && competitor.firstName === unlink2[0] && competitor.lastName === unlink2[1]) {
+        unused.eventorUnlinkMissings.delete(competitor.eventorId);
+        competitor.eventorId = undefined;
       }
     }
   }
@@ -183,6 +198,8 @@ function convertCompetitors(): { competitors: Competitor[]; clubs: Club[] } {
 const unused = {
   encodingCorrection: new Set<string>(encodingCorrections.keys()),
   eventorEncodingCorrection: new Set<string>(eventorEncodingCorrections.keys()),
+  eventorUnlinkMismatches: new Set<number>(eventorUnlinkMismatches.keys()),
+  eventorUnlinkMissings: new Set<number>(eventorUnlinkMissings.keys()),
   eventorClubs: new Set<string>(eventorClubs.keys()),
   clubCorrections: new Set<string>(clubCorrections.keys()),
   largeClubs: new Set<string>(largeClubs),
