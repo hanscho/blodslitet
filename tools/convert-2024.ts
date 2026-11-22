@@ -5,6 +5,7 @@ import { firstYear, nameRegex, sqlSourcePath } from './constants.ts';
 import { clubCorrections } from './convert-2024-club-corrections.ts';
 import { encodingCorrections, eventorEncodingCorrections } from './convert-2024-encoding-corrections.ts';
 import { eventorClubs } from './convert-2024-eventor-clubs.ts';
+import { eventorNameCorrections } from './convert-2024-eventor-name-corrections.ts';
 import { eventorReplacements } from './convert-2024-eventor-replacements.ts';
 import { eventorUnlinkMismatches } from './convert-2024-eventor-unlink-mismatch.ts';
 import { eventorUnlinkMissings } from './convert-2024-eventor-unlink-missing.ts';
@@ -69,7 +70,19 @@ function fixName(competitor: Competitor) {
       }
     }
   }
+
   if (competitor.eventorId !== undefined) {
+    const eventorCorrection = eventorNameCorrections.get(competitor.eventorId);
+    if (
+      eventorCorrection &&
+      competitor.firstName === eventorCorrection.r[0] &&
+      competitor.lastName === eventorCorrection.r[1]
+    ) {
+      unused.eventorNameCorrections.delete(competitor.eventorId);
+      competitor.firstName = eventorCorrection.e[0];
+      competitor.lastName = eventorCorrection.e[1];
+    }
+
     const eventorReplacement = eventorReplacements.get(competitor.eventorId);
     if (
       eventorReplacement &&
@@ -212,6 +225,7 @@ const unused = {
   encodingCorrection: new Set<string>(encodingCorrections.keys()),
   eventorEncodingCorrection: new Set<string>(eventorEncodingCorrections.keys()),
   eventorReplacements: new Set<number>(eventorReplacements.keys()),
+  eventorNameCorrections: new Set<number>(eventorNameCorrections.keys()),
   eventorUnlinkMismatches: new Set<number>(eventorUnlinkMismatches.keys()),
   eventorUnlinkMissings: new Set<number>(eventorUnlinkMissings.keys()),
   eventorClubs: new Set<string>(eventorClubs.keys()),
