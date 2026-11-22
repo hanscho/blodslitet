@@ -221,6 +221,7 @@ function convertCompetitors(): { competitors: Competitor[]; clubs: Club[] } {
   competitors = mergeEventorDuplicates(competitors);
   competitors = mergeCompetitors(competitors, '2024-merge-perfect.txt');
   competitors = mergeCompetitors(competitors, '2024-merge-perfect.eventor.txt');
+  competitors = mergeCompetitors(competitors, '2024-merge-clubAndSuperset.txt');
 
   const clubs = createClubs(competitors);
   for (const competitor of competitors) {
