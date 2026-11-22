@@ -3,6 +3,7 @@ import type { Club } from './club.model.ts';
 import { type Competitor } from './competitor.model.ts';
 import { firstYear, nameRegex, sqlSourcePath } from './constants.ts';
 import { clubCorrections } from './convert-2024-club-corrections.ts';
+import { encodingCorrections, eventorEncodingCorrections } from './convert-2024-encoding-corrections.ts';
 import { eventorClubs } from './convert-2024-eventor-clubs.ts';
 import { webRead, webWrite } from './web.service.ts';
 
@@ -43,6 +44,28 @@ function normalizeClass(name: string): string {
   name = name.replaceAll('ï¿½', 'å');
   name = name.replaceAll('Ã¥', 'å');
   return name;
+}
+
+function fixName(competitor: Competitor) {
+  const name = `${competitor.firstName} ${competitor.lastName}`;
+
+  if (!nameRegex.test(name)) {
+    const manualCorrection = encodingCorrections.get(name);
+    if (manualCorrection) {
+      unused.encodingCorrection.delete(name);
+      competitor.firstName = manualCorrection.firstName ?? competitor.firstName;
+      competitor.lastName = manualCorrection.lastName ?? competitor.lastName;
+    } else {
+      const eventorEncodingCorrection = eventorEncodingCorrections.get(name);
+      if (eventorEncodingCorrection) {
+        unused.eventorEncodingCorrection.delete(name);
+        competitor.firstName = eventorEncodingCorrection.firstName;
+        competitor.lastName = eventorEncodingCorrection.lastName;
+      } else {
+        throw new Error(`Missing encoding correction for ${name}`);
+      }
+    }
+  }
 }
 
 // Clubs with most competitors get indexes first so they'll encode as 1 byte.
@@ -140,6 +163,7 @@ function convertCompetitors(): { competitors: Competitor[]; clubs: Club[] } {
       throw new Error(`Origin count mismatch, ${count} <> ${competitor.participations.length} for ${id}/${eventorId}`);
     }
 
+    fixName(competitor);
     competitors.push(competitor);
   }
 
@@ -157,6 +181,8 @@ function convertCompetitors(): { competitors: Competitor[]; clubs: Club[] } {
 }
 
 const unused = {
+  encodingCorrection: new Set<string>(encodingCorrections.keys()),
+  eventorEncodingCorrection: new Set<string>(eventorEncodingCorrections.keys()),
   eventorClubs: new Set<string>(eventorClubs.keys()),
   clubCorrections: new Set<string>(clubCorrections.keys()),
   largeClubs: new Set<string>(largeClubs),
