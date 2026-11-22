@@ -1,0 +1,337 @@
+{"firstName":"Andersen Evine","lastName":"Westli","club":"Løten o-lag","participations":[[2010,"D13-14"]]}
+  RESULT {"eventorId":4533,"firstName":"Evine","lastName":"Westli Andersen","club":"Løten o-lag","participations":[[2011,"D15-16"],[2012,"D15-16"],[2013,"D17-18"],[2014,"D17-18"],[2016,"D 19-20E"]]}
+  # D13-14 (age 14), D13-14 (age 14)
+  # D15-16 (age 15), D 19-20E (age 20)
+  EVENTOR {"eventorId":4533,"firstName":"Evine","lastName":"Westli Andersen","club":"Løten o-lag","birthYear":1996,"clubId":"212"}
+{"firstName":"Anna","lastName":"Weckner-Westlund","club":"OK Tyr","participations":[[2004,"D35-"],[2006,"D45"]]}
+  RESULT {"eventorId":12405,"firstName":"Anna","lastName":"Weckner Westlund","club":"OK Tyr","participations":[[2010,"D45"],[2011,"D50"],[2012,"D50"],[2013,"D50"],[2015,"D50"],[2019,"D55"]]}
+  # D35- (age 43), D45 (age 45)
+  # D45 (age 49), D55 (age 58)
+  EVENTOR {"eventorId":12405,"firstName":"Anna","lastName":"Weckner Westlund","club":"OK Tyr","birthYear":1961,"clubId":"480"}
+{"firstName":"Annbjørg","lastName":"Henriksen","club":"Rudsbygd IL","participations":[[2016,"N-åpen"]]}
+  RESULT {"firstName":"Annbjørg","lastName":"Henriksen","club":"Rudsbygd IL","participations":[[2017,"N-åpen"]]}
+{"firstName":"Annbjørg","lastName":"Henriksen","club":"Rudsbygd IL","participations":[[2017,"N-åpen"]]}
+  RESULT {"firstName":"Annbjørg","lastName":"Henriksen","club":"Rudsbygd IL","participations":[[2016,"N-åpen"]]}
+{"firstName":"Anne Berit","lastName":"Rasmussen","club":"OL Tønsberg og omegn","participations":[[1997,"D 35-"],[1998,"D 35-"],[1999,"D 19-"],[2002,"D ÅPEN"],[2003,"D45-"],[2007,"D ÅPEN"],[2008,"D Åpen"]]}
+  RESULT {"firstName":"Anne-Berit","lastName":"Rasmussen","club":"OL Tønsberg og omegn","participations":[[2009,"D ÅPEN"],[2010,"D55"],[2012,"D55"]]}
+  # D 35- (age 43), D Åpen (age 54)
+  # D ÅPEN (age 55), D55 (age 58)
+  EVENTOR {"eventorId":8442,"firstName":"Anne-Berit","lastName":"Rasmussen","club":"OL Tønsberg og omegn","birthYear":1954,"clubId":"264"}
+{"firstName":"Anne Sofie","lastName":"Kristiansen","club":"Fredrikstad SK","participations":[[2009,"N ÅPEN"]]}
+  RESULT {"eventorId":8425,"firstName":"Anne-Sofie","lastName":"Kristiansen","club":"Fredrikstad SK","participations":[[2011,"N-åpen"],[2012,"N-åpen"],[2014,"Damer åpen"],[2015,"Damer åpen"]]}
+  # N ÅPEN (age 12), N ÅPEN (age 12)
+  # N-åpen (age 14), Damer åpen (age 18)
+  EVENTOR {"eventorId":8425,"firstName":"Anne-Sofie","lastName":"Kristiansen","club":"Fredrikstad SK","birthYear":1997,"clubId":"82"}
+{"firstName":"Anne-Berit","lastName":"Rasmussen","club":"OL Tønsberg og omegn","participations":[[2009,"D ÅPEN"],[2010,"D55"],[2012,"D55"]]}
+  RESULT {"firstName":"Anne Berit","lastName":"Rasmussen","club":"OL Tønsberg og omegn","participations":[[1997,"D 35-"],[1998,"D 35-"],[1999,"D 19-"],[2002,"D ÅPEN"],[2003,"D45-"],[2007,"D ÅPEN"],[2008,"D Åpen"]]}
+  # D ÅPEN (age 55), D55 (age 58)
+  # D 35- (age 43), D Åpen (age 54)
+  EVENTOR {"eventorId":8442,"firstName":"Anne-Berit","lastName":"Rasmussen","club":"OL Tønsberg og omegn","birthYear":1954,"clubId":"264"}
+{"firstName":"Bendix","lastName":"Gjølstad Smith","club":"Brandval/Kongsvinger OK","participations":[[2008,"H13-14"]]}
+  RESULT {"firstName":"Bendix","lastName":"Gjølstad Smith","club":"Brandval/Kongsvinger OK","participations":[[2009,"H ÅPEN"]]}
+{"firstName":"Bendix","lastName":"Gjølstad Smith","club":"Brandval/Kongsvinger OK","participations":[[2009,"H ÅPEN"]]}
+  RESULT {"firstName":"Bendix","lastName":"Gjølstad Smith","club":"Brandval/Kongsvinger OK","participations":[[2008,"H13-14"]]}
+{"firstName":"Bernt Henrik","lastName":"Hansen","club":"Gimle IF","participations":[[1982,"H -18"],[1983,"H -18"],[1984,"H -18"],[1985,"H -18"],[2006,"H ÅPEN"],[2007,"H ÅPEN"],[2009,"H ÅPEN"],[2010,"H Åpen"]]}
+  RESULT {"firstName":"Bernt- henrik","lastName":"Hansen","club":"Gimle IF","participations":[[2008,"H Åpen"]]}
+  # H -18 (age 14), H Åpen (age 42)
+  # H Åpen (age 40), H Åpen (age 40)
+  EVENTOR {"eventorId":6828,"firstName":"Bernt-Henrik","lastName":"Hansen","club":"Gimle IF","birthYear":1968,"clubId":"90"}
+{"firstName":"Bernt- henrik","lastName":"Hansen","club":"Gimle IF","participations":[[2008,"H Åpen"]]}
+  RESULT {"firstName":"Bernt Henrik","lastName":"Hansen","club":"Gimle IF","participations":[[1982,"H -18"],[1983,"H -18"],[1984,"H -18"],[1985,"H -18"],[2006,"H ÅPEN"],[2007,"H ÅPEN"],[2009,"H ÅPEN"],[2010,"H Åpen"]]}
+  # H Åpen (age 40), H Åpen (age 40)
+  # H -18 (age 14), H Åpen (age 42)
+  EVENTOR {"eventorId":6828,"firstName":"Bernt-Henrik","lastName":"Hansen","club":"Gimle IF","birthYear":1968,"clubId":"90"}
+{"firstName":"Bjørnstad Erik","lastName":"Hæstad","club":"Fossum IF","participations":[[2011,"H11-12"],[2013,"H13-14"],[2014,"H13-14"],[2015,"H15-16"],[2016,"H15-16"]]}
+  RESULT {"eventorId":25188,"firstName":"Erik Hæstad","lastName":"Bjørnstad","club":"Fossum IF","participations":[[2017,"H 17-18E"],[2019,"H 19-20E"]]}
+{"firstName":"Blå Maren","lastName":"Hope","club":"Gimle IF","participations":[[2009,"D13-14"],[2010,"D15-16"]]}
+  RESULT {"eventorId":10281,"firstName":"Maren","lastName":"Hope Blå","club":"Gimle IF","participations":[[2012,"D Åpen"],[2014,"Damer åpen"]]}
+  # D13-14 (age 14), D15-16 (age 15)
+  # D Åpen (age 17), Damer åpen (age 19)
+  EVENTOR {"eventorId":10281,"firstName":"Maren","lastName":"Hope Blå","club":"Gimle IF","birthYear":1995,"clubId":"90"}
+{"firstName":"Bo","lastName":"Karlsson","club":"Köping Kolsva OK","participations":[[1991,"H 50-"],[1993,"H 50-"],[1995,"H 50-"],[1996,"H 50-"],[1999,"H 50-"],[2000,"H 50-"],[2001,"H 50-"],[2002,"H 65-"],[2003,"H 65-"],[2008,"H65"]]}
+  RESULT {"firstName":"Bo","lastName":"Karlsson","club":"Köping Kolsva OK","participations":[[2006,"H65"],[2007,"H65"]]}
+{"firstName":"Bo","lastName":"Karlsson","club":"Köping Kolsva OK","participations":[[2006,"H65"],[2007,"H65"]]}
+  RESULT {"firstName":"Bo","lastName":"Karlsson","club":"Köping Kolsva OK","participations":[[1991,"H 50-"],[1993,"H 50-"],[1995,"H 50-"],[1996,"H 50-"],[1999,"H 50-"],[2000,"H 50-"],[2001,"H 50-"],[2002,"H 65-"],[2003,"H 65-"],[2008,"H65"]]}
+{"firstName":"Bård Hauan","lastName":"Andersen","club":"Halden SK","participations":[[2003,"H 13-14"],[2004,"H13-14"],[2005,"H 15-16"],[2006,"H15-16"],[2007,"H17-20"]]}
+  RESULT {"firstName":"Bård Hauan","lastName":"Andersen","club":"Halden SK","participations":[[2001,"H -18"],[2002,"H 13-14"]]}
+  # H 13-14 (age 13), H17-20 (age 17)
+  # H -18 (age 11), H 13-14 (age 12)
+  # PAY ATTENTION: AGE 12 BEFORE 2002 H 13-14
+  EVENTOR {"eventorId":98329,"firstName":"Bård Hauan","lastName":"Andersen","club":"Halden SK","birthYear":1990,"clubId":"101"}
+{"firstName":"Bård Hauan","lastName":"Andersen","club":"Halden SK","participations":[[2001,"H -18"],[2002,"H 13-14"]]}
+  RESULT {"firstName":"Bård Hauan","lastName":"Andersen","club":"Halden SK","participations":[[2003,"H 13-14"],[2004,"H13-14"],[2005,"H 15-16"],[2006,"H15-16"],[2007,"H17-20"]]}
+  # H -18 (age 11), H 13-14 (age 12)
+  # H 13-14 (age 13), H17-20 (age 17)
+  # PAY ATTENTION: AGE 12 BEFORE 2002 H 13-14
+  EVENTOR {"eventorId":98329,"firstName":"Bård Hauan","lastName":"Andersen","club":"Halden SK","birthYear":1990,"clubId":"101"}
+{"firstName":"Don","lastName":"Skantze","club":"Tyrving IL","participations":[[2001,"H 19-"],[2002,"H 45-"],[2003,"H 45-"],[2004,"H45-"],[2005,"H 45"],[2006,"H45"],[2007,"H45"]]}
+  RESULT {"firstName":"Don","lastName":"Skantze","club":"Tyrving IL","participations":[[2010,"H Åpen"]]}
+  # H 19- (age 43), H45 (age 49)
+  # H Åpen (age 52), H Åpen (age 52)
+  # PAY ATTENTION: AGE 44 BEFORE 2002 H 45-
+  EVENTOR {"eventorId":630,"firstName":"Don","lastName":"Skantze","club":"Tyrving IL","birthYear":1958,"clubId":"163"}
+{"firstName":"Don","lastName":"Skantze","club":"Tyrving IL","participations":[[2010,"H Åpen"]]}
+  RESULT {"firstName":"Don","lastName":"Skantze","club":"Tyrving IL","participations":[[2001,"H 19-"],[2002,"H 45-"],[2003,"H 45-"],[2004,"H45-"],[2005,"H 45"],[2006,"H45"],[2007,"H45"]]}
+  # H Åpen (age 52), H Åpen (age 52)
+  # H 19- (age 43), H45 (age 49)
+  # PAY ATTENTION: AGE 44 BEFORE 2002 H 45-
+  EVENTOR {"eventorId":630,"firstName":"Don","lastName":"Skantze","club":"Tyrving IL","birthYear":1958,"clubId":"163"}
+{"firstName":"Elisabeth","lastName":"Brække","club":"Halden SK","participations":[[2010,"N-Åpen"]]}
+  RESULT {"eventorId":269,"firstName":"Elisabeth","lastName":"Brække","club":"Halden SK","participations":[[2011,"D11-12"],[2013,"D13-14"],[2014,"D13-14"],[2015,"D15-16"]]}
+  # N-Åpen (age 10), N-Åpen (age 10)
+  # D11-12 (age 11), D15-16 (age 15)
+  EVENTOR {"eventorId":269,"firstName":"Elisabeth","lastName":"Brække","club":"Halden SK","birthYear":2000,"clubId":"101"}
+{"firstName":"Finn","lastName":"Eriksen","club":"Eiker OL","participations":[[1973,"H -18"]]}
+  RESULT {"firstName":"Finn","lastName":"Eriksen","club":"Eiker OL","participations":[[2006,"H ÅPEN"]]}
+  # H -18 (age 13), H -18 (age 13)
+  # H ÅPEN (age 46), H ÅPEN (age 46)
+  EVENTOR {"eventorId":5797,"firstName":"Finn","lastName":"Eriksen","club":"Eiker OL","birthYear":1960,"clubId":"64"}
+{"firstName":"Finn","lastName":"Eriksen","club":"Eiker OL","participations":[[2006,"H ÅPEN"]]}
+  RESULT {"firstName":"Finn","lastName":"Eriksen","club":"Eiker OL","participations":[[1973,"H -18"]]}
+  # H ÅPEN (age 46), H ÅPEN (age 46)
+  # H -18 (age 13), H -18 (age 13)
+  EVENTOR {"eventorId":5797,"firstName":"Finn","lastName":"Eriksen","club":"Eiker OL","birthYear":1960,"clubId":"64"}
+{"firstName":"Fjogstad","lastName":"Nielsen Mali","club":"Kongsberg OL","participations":[[2003,"D15-16"]]}
+  RESULT {"firstName":"Mali Fjogstad","lastName":"Nielsen","club":"Kongsberg OL","participations":[[2000,"D -18"],[2001,"D -18"],[2002,"D 15-16"],[2004,"D17-20"],[2005,"D 17-20"],[2006,"D17-20"],[2007,"D17-20"]]}
+{"firstName":"Fred","lastName":"Pontus","club":"FSO","participations":[[1995,"H -18"],[1996,"H -18"]]}
+  RESULT {"firstName":"Pontus","lastName":"Fred","club":"FSO","participations":[[1997,"H -18"],[1998,"H -18"],[1999,"H -18"]]}
+{"firstName":"Fredrik","lastName":"Moe","club":"Sandefjord OK","participations":[[2011,"H13-14"],[2013,"H15-16"]]}
+  RESULT {"eventorId":17863,"firstName":"Fredrik","lastName":"Moe","club":"Sandefjord OK","participations":[[2015,"H 17-18E"]]}
+  # H13-14 (age 14), H15-16 (age 16)
+  # H 17-18E (age 18), H 17-18E (age 18)
+  EVENTOR {"eventorId":17863,"firstName":"Fredrik","lastName":"Moe","club":"Sandefjord OK","birthYear":1997,"clubId":"301"}
+{"firstName":"Frode.","lastName":"Ødegårdstuen","club":"Synnfjell OK","participations":[[2008,"H35"]]}
+  RESULT {"firstName":"Frode","lastName":"Ødegårdstuen","club":"Synnfjell OK","participations":[[1999,"H 35-"],[2002,"H 35-"],[2004,"H35-"],[2009,"H ÅPEN"],[2010,"H45"],[2012,"H45"]]}
+{"firstName":"Frode","lastName":"Ødegårdstuen","club":"Synnfjell OK","participations":[[1999,"H 35-"],[2002,"H 35-"],[2004,"H35-"],[2009,"H ÅPEN"],[2010,"H45"],[2012,"H45"]]}
+  RESULT {"firstName":"Frode.","lastName":"Ødegårdstuen","club":"Synnfjell OK","participations":[[2008,"H35"]]}
+{"firstName":"Gunn Torill","lastName":"Hokholt","club":"Nordre Follo Orientering","participations":[[2001,"D 35-"],[2002,"D 35-"],[2003,"D35-"],[2004,"D35-"],[2007,"D45"]]}
+  RESULT {"eventorId":666,"firstName":"Gunn-Torill","lastName":"Hokholt","club":"Nordre Follo Orientering","participations":[[2008,"D45"],[2009,"D45"],[2010,"D45"],[2011,"D45"],[2012,"D50"],[2014,"D50"],[2016,"D50"],[2018,"D55"],[2024,"D60"]]}
+  # D 35- (age 39), D45 (age 45)
+  # D45 (age 46), D60 (age 62)
+  EVENTOR {"eventorId":666,"firstName":"Gunn-Torill","lastName":"Hokholt","club":"Nordre Follo Orientering","birthYear":1962,"clubId":"181"}
+{"firstName":"Hans Ingar","lastName":"Sætra","club":"Asker Skiklubb","participations":[[2002,"H ÅPEN"]]}
+  RESULT {"eventorId":1687,"firstName":"Hans-Ingar","lastName":"Sætra","club":"Asker Skiklubb","participations":[[2001,"H 19-"],[2004,"H ÅPEN"],[2006,"H ÅPEN"],[2008,"H Åpen"],[2009,"H ÅPEN"],[2010,"H Åpen"],[2011,"H Åpen"],[2012,"H Åpen"],[2013,"Herrer åp"],[2016,"H-aapen"]]}
+{"firstName":"Hans Kristian Andreassen","lastName":"Moe","club":"Ås-NMBU Orientering","participations":[[2003,"H 13-14"],[2004,"H13-14"],[2005,"H 15-16"],[2006,"H15-16"]]}
+  RESULT {"firstName":"Hans Kristian Andreassen","lastName":"Moe","club":"Ås-NMBU Orientering","participations":[[2007,"H17-20"]]}
+{"firstName":"Hans Kristian Andreassen","lastName":"Moe","club":"Ås-NMBU Orientering","participations":[[2007,"H17-20"]]}
+  RESULT {"firstName":"Hans Kristian Andreassen","lastName":"Moe","club":"Ås-NMBU Orientering","participations":[[2003,"H 13-14"],[2004,"H13-14"],[2005,"H 15-16"],[2006,"H15-16"]]}
+{"firstName":"Hansen Kim","lastName":"Farnes","club":"Lierbygda OL","participations":[[1981,"H 19-"],[1987,"H 19-"],[2009,"H ÅPEN"],[2010,"H Åpen"]]}
+  RESULT {"eventorId":1715,"firstName":"Kim","lastName":"Farnes Hansen","club":"Lierbygda OL","participations":[[2011,"H Åpen"],[2013,"H50"],[2014,"H50"],[2017,"H55"]]}
+  # H 19- (age 19), H Åpen (age 48)
+  # H Åpen (age 49), H55 (age 55)
+  EVENTOR {"eventorId":1715,"firstName":"Kim","lastName":"Farnes Hansen","club":"Lierbygda OL","birthYear":1962,"clubId":"201"}
+#{"firstName":"Harald","lastName":"Berge","club":"Tyrving IL","participations":[[1979,"H -18"],[2008,"H17-20"]]}
+#  RESULT {"firstName":"Harald","lastName":"Berge","club":"Tyrving IL","participations":[[2002,"H 13-14"],[2007,"H17-20"]]}
+#  # H -18 (age -9), H17-20 (age 20)
+#  # H 13-14 (age 14), H17-20 (age 19)
+#  # PAY ATTENTION: AGE -9 BEFORE 1979 H -18
+#  EVENTOR {"eventorId":4753,"firstName":"Harald","lastName":"Berge","club":"Tyrving IL","birthYear":1988,"clubId":"163"}
+#{"firstName":"Harald","lastName":"Berge","club":"Tyrving IL","participations":[[2002,"H 13-14"],[2007,"H17-20"]]}
+#  RESULT {"firstName":"Harald","lastName":"Berge","club":"Tyrving IL","participations":[[1979,"H -18"],[2008,"H17-20"]]}
+#  # H 13-14 (age 14), H17-20 (age 19)
+#  # H -18 (age -9), H17-20 (age 20)
+#  # PAY ATTENTION: AGE -9 BEFORE 1979 H -18
+#  EVENTOR {"eventorId":4753,"firstName":"Harald","lastName":"Berge","club":"Tyrving IL","birthYear":1988,"clubId":"163"}
+{"firstName":"Håkon Fenne","lastName":"Ingierd","club":"Bækkelagets SK","participations":[[2015,"N-åpen"]]}
+  RESULT {"eventorId":19133,"firstName":"Håkon Fenne","lastName":"Ingierd","club":"Bækkelagets SK","participations":[[2018,"N-åpen"],[2021,"H 11-12"],[2022,"H 11-12"],[2023,"H 13-14"],[2024,"H 13-14"]]}
+  # N-åpen (age 5), N-åpen (age 5)
+  # N-åpen (age 8), H 13-14 (age 14)
+  EVENTOR {"eventorId":19133,"firstName":"Håkon Fenne","lastName":"Ingierd","club":"Bækkelagets SK","birthYear":2010,"clubId":"32"}
+{"firstName":"Haakon Johann","lastName":"Slang-Sundsetvik","club":"Halden SK","participations":[[2012,"H11-12"],[2014,"H13-14"]]}
+  RESULT {"eventorId":16592,"firstName":"Haakon","lastName":"Johann Slang-Sundsetvik","club":"Halden SK","participations":[[2015,"H15-16"]]}
+{"firstName":"Ida Byom","lastName":"Nilssen","club":"Nordre Follo Orientering","participations":[[2004,"D13-14"],[2005,"D 13-14"]]}
+  RESULT {"firstName":"Ida","lastName":"Byom-Nilssen","club":"Nordre Follo Orientering","participations":[[2006,"D15-16"]]}
+{"firstName":"Ida","lastName":"Byom-Nilssen","club":"Nordre Follo Orientering","participations":[[2006,"D15-16"]]}
+  RESULT {"firstName":"Ida Byom","lastName":"Nilssen","club":"Nordre Follo Orientering","participations":[[2004,"D13-14"],[2005,"D 13-14"]]}
+{"firstName":"Ivar Øen","lastName":"Landstad","club":"Nydalens SK","participations":[[2022,"H 9-10"]]}
+  RESULT {"eventorId":27730,"firstName":"Ivar Øen","lastName":"Landstad","club":"Nydalens SK","participations":[[2023,"H 11-12"],[2024,"H 11-12"]]}
+  # H 9-10 (age 10), H 9-10 (age 10)
+  # H 11-12 (age 11), H 11-12 (age 12)
+  EVENTOR {"eventorId":27730,"firstName":"Ivar Øen","lastName":"Landstad","club":"Nydalens SK","birthYear":2012,"clubId":"245"}
+{"firstName":"Jan Erik","lastName":"Fredriksen","club":"Indre Østfold OK","participations":[[1970,"H 19-"],[1971,"H19-"],[1972,"H 19-"],[1990,"H 35-"],[1999,"H 50-"],[2001,"H ÅPEN"],[2002,"H 45-"],[2003,"H ÅPEN"],[2004,"H55-"],[2005,"H 55"],[2006,"H55"],[2007,"H55"]]}
+  RESULT {"eventorId":6253,"firstName":"Jan-Erik","lastName":"Fredriksen","club":"Indre Østfold OK","participations":[[2008,"H55"],[2009,"H60"],[2010,"H60"],[2011,"H60"],[2012,"H60"],[2013,"H60"],[2014,"H65"],[2015,"H65"],[2016,"H65"],[2017,"H65"],[2018,"H65"],[2019,"H70"],[2021,"H70"],[2022,"H70"],[2023,"H70"],[2024,"H75"]]}
+  # H 19- (age 21), H55 (age 58)
+  # H55 (age 59), H75 (age 75)
+  EVENTOR {"eventorId":6253,"firstName":"Jan-Erik","lastName":"Fredriksen","club":"Indre Østfold OK","birthYear":1949,"clubId":"169"}
+{"firstName":"Jan Erling","lastName":"Grav","club":"Trøsken IL","participations":[[2001,"H 19-"],[2004,"H ÅPEN"]]}
+  RESULT {"firstName":"Jan-Erling","lastName":"Grav","club":"Trøsken IL","participations":[[2009,"H ÅPEN"]]}
+{"firstName":"Jan Henrik","lastName":"Suleng","club":"OK Moss","participations":[[2001,"H 19-"],[2002,"H 45-"],[2003,"H 45-"],[2004,"H45-"],[2005,"H 45"],[2006,"H45"],[2008,"H Åpen"]]}
+  RESULT {"firstName":"Jan-Henrik","lastName":"Suleng","club":"OK Moss","participations":[[2009,"H ÅPEN"],[2011,"H55"]]}
+  # H 19- (age 46), H Åpen (age 53)
+  # H ÅPEN (age 54), H55 (age 56)
+  EVENTOR {"eventorId":6497,"firstName":"Jan-Henrik","lastName":"Suleng","club":"OK Moss","birthYear":1955,"clubId":"252"}
+{"firstName":"Jan-Erling","lastName":"Grav","club":"Trøsken IL","participations":[[2009,"H ÅPEN"]]}
+  RESULT {"firstName":"Jan Erling","lastName":"Grav","club":"Trøsken IL","participations":[[2001,"H 19-"],[2004,"H ÅPEN"]]}
+{"firstName":"Jan-Henrik","lastName":"Suleng","club":"OK Moss","participations":[[2009,"H ÅPEN"],[2011,"H55"]]}
+  RESULT {"firstName":"Jan Henrik","lastName":"Suleng","club":"OK Moss","participations":[[2001,"H 19-"],[2002,"H 45-"],[2003,"H 45-"],[2004,"H45-"],[2005,"H 45"],[2006,"H45"],[2008,"H Åpen"]]}
+  # H ÅPEN (age 54), H55 (age 56)
+  # H 19- (age 46), H Åpen (age 53)
+  EVENTOR {"eventorId":6497,"firstName":"Jan-Henrik","lastName":"Suleng","club":"OK Moss","birthYear":1955,"clubId":"252"}
+{"firstName":"Jarle","lastName":"Ruud","club":"Nordre Follo Orientering","participations":[[1986,"H -18"],[1992,"H -18"],[1994,"H -18"],[1995,"H 19-"],[1996,"H 19-"],[1997,"H 19-"]]}
+  RESULT {"firstName":"Jarle","lastName":"Ruud","club":"Nordre Follo Orientering","participations":[[1993,"H -18"]]}
+{"firstName":"Jarle","lastName":"Ruud","club":"Nordre Follo Orientering","participations":[[1993,"H -18"]]}
+  RESULT {"firstName":"Jarle","lastName":"Ruud","club":"Nordre Follo Orientering","participations":[[1986,"H -18"],[1992,"H -18"],[1994,"H -18"],[1995,"H 19-"],[1996,"H 19-"],[1997,"H 19-"]]}
+{"firstName":"Jonas A.","lastName":"Poulsen","club":"Aarhus 1900 Orientering","participations":[[2009,"H11-12"]]}
+  RESULT {"eventorId":6724,"firstName":"Jonas A.","lastName":"Poulsen","club":"Aarhus 1900 Orientering","participations":[[2011,"H13-14"],[2013,"Herrer åp"]]}
+  # H11-12 (age 11), H11-12 (age 11)
+  # H13-14 (age 13), Herrer åp (age 15)
+  EVENTOR {"eventorId":6724,"firstName":"Jonas A.","lastName":"Poulsen","club":"Aarhus 1900 Orientering","birthYear":1998,"clubId":"503"}
+{"firstName":"Jonas","lastName":"Lundberg","club":"Göteborg Majorna OK","participations":[[2010,"H35"]]}
+  RESULT {"eventorId":22345,"firstName":"Jonas","lastName":"Lundberg","club":"Göteborg Majorna OK","participations":[[2015,"H40"]]}
+  # H35 (age 36), H35 (age 36)
+  # H40 (age 41), H40 (age 41)
+  EVENTOR {"eventorId":22345,"firstName":"Jonas","lastName":"Lundberg","club":"Göteborg Majorna OK","birthYear":1974,"clubId":"1008"}
+{"firstName":"Jonathan","lastName":"Eylertsen","club":"Halden SK","participations":[[2011,"N-åpen"],[2012,"N-åpen"]]}
+  RESULT {"eventorId":5537,"firstName":"Jonathan","lastName":"Eylertsen","club":"Halden SK","participations":[[2013,"H -10"],[2014,"H11-12"]]}
+  # N-åpen (age 8), N-åpen (age 9)
+  # H -10 (age 10), H11-12 (age 11)
+  EVENTOR {"eventorId":5537,"firstName":"Jonathan","lastName":"Eylertsen","club":"Halden SK","birthYear":2003,"clubId":"101"}
+{"firstName":"Karsten","lastName":"Kopland","club":"Modum OL","participations":[[2001,"H -18"],[2003,"H 15-16"],[2005,"H 17-20"]]}
+  RESULT {"firstName":"Karsten","lastName":"Kopland","club":"Modum OL","participations":[[2002,"H 13-14"],[2003,"H 15-16"],[2004,"H15-16"],[2005,"H 17-20"]]}
+{"firstName":"Karsten","lastName":"Kopland","club":"Modum OL","participations":[[2002,"H 13-14"],[2003,"H 15-16"],[2004,"H15-16"],[2005,"H 17-20"]]}
+  RESULT {"firstName":"Karsten","lastName":"Kopland","club":"Modum OL","participations":[[2001,"H -18"],[2003,"H 15-16"],[2005,"H 17-20"]]}
+{"firstName":"Krüger Espen","lastName":"Hegstad","club":"Nydalens SK","participations":[[2012,"H13-14"],[2013,"H13-14"]]}
+  RESULT {"eventorId":2169,"firstName":"Espen Hegstad","lastName":"Krüger","club":"Nydalens SK","participations":[[2014,"H15-16"]]}
+  # H13-14 (age 13), H13-14 (age 14)
+  # H15-16 (age 15), H15-16 (age 15)
+  EVENTOR {"eventorId":2169,"firstName":"Espen Hegstad","lastName":"Krüger","club":"Nydalens SK","birthYear":1999,"clubId":"245"}
+{"firstName":"Kaarina","lastName":"Voudinmäki","club":"Mullsjö SOK","participations":[[2001,"D 50-"]]}
+  RESULT {"firstName":"Kaarina","lastName":"Voudinmäki","club":"Mullsjö SOK","participations":[[2009,"D65"]]}
+{"firstName":"Kaarina","lastName":"Voudinmäki","club":"Mullsjö SOK","participations":[[2009,"D65"]]}
+  RESULT {"firstName":"Kaarina","lastName":"Voudinmäki","club":"Mullsjö SOK","participations":[[2001,"D 50-"]]}
+{"firstName":"Lars","lastName":"Olsen","club":"Måren OK","participations":[[1988,"H -18"],[1989,"H -18"],[1990,"H -18"],[1991,"H -18"]]}
+  RESULT {"firstName":"Lars","lastName":"Olsen","club":"Måren OK","participations":[[2006,"H ÅPEN"]]}
+{"firstName":"Lars","lastName":"Olsen","club":"Måren OK","participations":[[2006,"H ÅPEN"]]}
+  RESULT {"firstName":"Lars","lastName":"Olsen","club":"Måren OK","participations":[[1988,"H -18"],[1989,"H -18"],[1990,"H -18"],[1991,"H -18"]]}
+{"firstName":"Lillevold","lastName":"Mads","club":"Ås-NMBU Orientering","participations":[[2010,"H Åpen"]]}
+  RESULT {"eventorId":570,"firstName":"Mads","lastName":"Lillevold","club":"Ås-NMBU Orientering","participations":[[2009,"H ÅPEN"],[2011,"H Åpen"],[2012,"H Åpen"],[2013,"Herrer åp"],[2014,"Herrer åpe"],[2015,"Herrer åpe"],[2017,"Herrer åpe"],[2018,"Herrer åpen"],[2019,"Herrer åpen"]]}
+  # H Åpen (age 47), H Åpen (age 47)
+  # H ÅPEN (age 46), Herrer åpen (age 56)
+  EVENTOR {"eventorId":570,"firstName":"Mads","lastName":"Lillevold","club":"Ås-NMBU Orientering","birthYear":1963,"clubId":"402"}
+{"firstName":"Magnar","lastName":"Thorrud","club":"Kongsberg OL","participations":[[2005,"H 45"]]}
+  RESULT {"firstName":"Thorrud","lastName":"Magnar","club":"Kongsberg OL","participations":[[2003,"H 45-"]]}
+{"firstName":"Magnus Sveum","lastName":"Trøhaugen","club":"Østmarka OK","participations":[[2022,"H 9-10"]]}
+  RESULT {"eventorId":39253,"firstName":"Magnus Sveum","lastName":"Trøhaugen","club":"Østmarka OK","participations":[[2021,"N-åpen"]]}
+{"firstName":"Mali Fjogstad","lastName":"Nielsen","club":"Kongsberg OL","participations":[[2000,"D -18"],[2001,"D -18"],[2002,"D 15-16"],[2004,"D17-20"],[2005,"D 17-20"],[2006,"D17-20"],[2007,"D17-20"]]}
+  RESULT {"firstName":"Fjogstad","lastName":"Nielsen Mali","club":"Kongsberg OL","participations":[[2003,"D15-16"]]}
+{"firstName":"Maren Bunæs","lastName":"Nilsen","club":"Eiker OL","participations":[[2005,"D 11-12"],[2006,"D13-14"],[2008,"D15-16"],[2011,"D17-18"]]}
+  RESULT {"firstName":"Nilsen Maren","lastName":"Bunæs","club":"Eiker OL","participations":[[2010,"D17-20"]]}
+  # D 11-12 (age 12), D17-18 (age 18)
+  # D17-20 (age 17), D17-20 (age 17)
+  EVENTOR {"eventorId":3522,"firstName":"Maren Bunæs","lastName":"Nilsen","club":"Eiker OL","birthYear":1993,"clubId":"64"}
+{"firstName":"Mia Mathisen","lastName":"Bekhus","club":"Fredrikstad SK","participations":[[2012,"D13-14"]]}
+  RESULT {"eventorId":7873,"firstName":"Mia","lastName":"Mathisen Bekhus","club":"Fredrikstad SK","participations":[[2013,"D13-14"],[2014,"D15-16"],[2015,"D15-16"],[2016,"D 17-18E"]]}
+  # D13-14 (age 13), D13-14 (age 13)
+  # D13-14 (age 14), D 17-18E (age 17)
+  EVENTOR {"eventorId":7873,"firstName":"Mia","lastName":"Mathisen Bekhus","club":"Fredrikstad SK","birthYear":1999,"clubId":"82"}
+{"firstName":"Morten","lastName":"Dåsnes","club":"Ringerike OL","participations":[[2008,"H45"],[2009,"H50"],[2010,"H55"],[2011,"H55"],[2012,"H55"],[2014,"H55"]]}
+  RESULT {"eventorId":19832,"firstName":"Morten","lastName":"Dåsnes","club":"Ringerike OL","participations":[[2015,"H60"],[2016,"H60"],[2017,"H60"]]}
+  # H45 (age 53), H55 (age 59)
+  # H60 (age 60), H60 (age 62)
+  EVENTOR {"eventorId":19832,"firstName":"Morten","lastName":"Dåsnes","club":"Ringerike OL","birthYear":1955,"clubId":"285"}
+{"firstName":"Møller Laurits","lastName":"Bidstrup","club":"OK Pan Århus","participations":[[2014,"H15-16"]]}
+  RESULT {"eventorId":19437,"firstName":"Laurits","lastName":"Bidstrup Møller","club":"OK Pan Århus","participations":[[2015,"H 17-18E"],[2018,"H 19-20E"]]}
+{"firstName":"Nilsen Maren","lastName":"Bunæs","club":"Eiker OL","participations":[[2010,"D17-20"]]}
+  RESULT {"firstName":"Maren Bunæs","lastName":"Nilsen","club":"Eiker OL","participations":[[2005,"D 11-12"],[2006,"D13-14"],[2008,"D15-16"],[2011,"D17-18"]]}
+  # D17-20 (age 17), D17-20 (age 17)
+  # D 11-12 (age 12), D17-18 (age 18)
+  EVENTOR {"eventorId":3522,"firstName":"Maren Bunæs","lastName":"Nilsen","club":"Eiker OL","birthYear":1993,"clubId":"64"}
+{"firstName":"Nygaard Anders","lastName":"Stiansen","club":"Ås-NMBU Orientering","participations":[[2010,"H13-14"]]}
+  RESULT {"eventorId":469,"firstName":"Anders","lastName":"Stiansen Nygaard","club":"Ås-NMBU Orientering","participations":[[2011,"H13-14"],[2012,"H15-16"],[2013,"H15-16"]]}
+{"firstName":"Nørgaard Oscar","lastName":"Holm","club":"Silkeborg OK","participations":[[2009,"H15-16"]]}
+  RESULT {"firstName":"Oscar Holm","lastName":"Nørgaard","club":"Silkeborg OK","participations":[[2011,"H17-18"]]}
+  # H15-16 (age 15), H15-16 (age 15)
+  # H17-18 (age 17), H17-18 (age 17)
+  EVENTOR {"eventorId":6530,"firstName":"Oscar","lastName":"Holm Nørgaard","club":"Silkeborg OK","birthYear":1994,"clubId":"514"}
+{"firstName":"Olav","lastName":"Melheim","club":"Sturla, IF","participations":[[2012,"H -10"],[2013,"H -10"]]}
+  RESULT {"eventorId":5788,"firstName":"Olav","lastName":"Melheim","club":"Sturla, IF","participations":[[2015,"H11-12"],[2017,"H13-14"],[2018,"H15-16"]]}
+  # H -10 (age 9), H -10 (age 10)
+  # H11-12 (age 12), H15-16 (age 15)
+  EVENTOR {"eventorId":5788,"firstName":"Olav","lastName":"Melheim","club":"Sturla, IF","birthYear":2003,"clubId":"133"}
+{"firstName":"Oscar Holm","lastName":"Nørgaard","club":"Silkeborg OK","participations":[[2011,"H17-18"]]}
+  RESULT {"firstName":"Nørgaard Oscar","lastName":"Holm","club":"Silkeborg OK","participations":[[2009,"H15-16"]]}
+  # H17-18 (age 17), H17-18 (age 17)
+  # H15-16 (age 15), H15-16 (age 15)
+  EVENTOR {"eventorId":6530,"firstName":"Oscar","lastName":"Holm Nørgaard","club":"Silkeborg OK","birthYear":1994,"clubId":"514"}
+{"firstName":"Pedersen Vegard","lastName":"Fiane","club":"IK Grane Arendal Orientering","participations":[[2005,"H 11-12"],[2006,"H13-14"],[2007,"H13-14"],[2008,"H15-16"],[2009,"H15-16"]]}
+  RESULT {"firstName":"Vegard Fiane","lastName":"Pedersen","club":"IK Grane Arendal Orientering","participations":[[2011,"H17-18"]]}
+{"firstName":"Per Erik","lastName":"Winther","club":"Oppsal Orientering","participations":[[1992,"H 35-"],[2001,"H 50-"],[2003,"H 55-"],[2004,"H55-"]]}
+  RESULT {"eventorId":19191,"firstName":"Per-Erik","lastName":"Winther","club":"Oppsal Orientering","participations":[[2011,"H65"],[2016,"H70"]]}
+  # H 35- (age 48), H55- (age 60)
+  # H65 (age 67), H70 (age 72)
+  EVENTOR {"eventorId":19191,"firstName":"Per-Erik","lastName":"Winther","club":"Oppsal Orientering","birthYear":1944,"clubId":"268"}
+{"firstName":"Pontus","lastName":"Fred","club":"FSO","participations":[[1997,"H -18"],[1998,"H -18"],[1999,"H -18"]]}
+  RESULT {"firstName":"Fred","lastName":"Pontus","club":"FSO","participations":[[1995,"H -18"],[1996,"H -18"]]}
+{"firstName":"Rune","lastName":"Torgersen","club":"Fana IL","participations":[[2011,"H40"],[2012,"H40"],[2013,"H45"]]}
+  RESULT {"eventorId":39213,"firstName":"Rune","lastName":"Torgersen","club":"Fana IL","participations":[[2021,"H50"]]}
+  # H40 (age 44), H45 (age 46)
+  # H50 (age 54), H50 (age 54)
+  EVENTOR {"eventorId":39213,"firstName":"Rune","lastName":"Torgersen","club":"Fana IL","birthYear":1967,"clubId":"69"}
+#{"firstName":"Silje Nilsen","lastName":"Berg","club":"Fossum IF","participations":[[2014,"D13-14"],[2015,"D13-14"],[2017,"N-åpen"]]}
+#  RESULT {"firstName":"Silje Nilsen","lastName":"Berg","club":"Fossum IF","participations":[[2017,"N-åpen"]]}
+#  # D13-14 (age 4), N-åpen (age 7)
+#  # N-åpen (age 7), N-åpen (age 7)
+#  # PAY ATTENTION: AGE 4 BEFORE 2014 D13-14
+#  EVENTOR {"eventorId":27761,"firstName":"Silje Nilsen","lastName":"Berg","club":"Fossum IF","birthYear":2010,"clubId":"80"}
+#{"firstName":"Silje Nilsen","lastName":"Berg","club":"Fossum IF","participations":[[2017,"N-åpen"]]}
+#  RESULT {"firstName":"Silje Nilsen","lastName":"Berg","club":"Fossum IF","participations":[[2014,"D13-14"],[2015,"D13-14"],[2017,"N-åpen"]]}
+#  # N-åpen (age 7), N-åpen (age 7)
+#  # D13-14 (age 4), N-åpen (age 7)
+#  # PAY ATTENTION: AGE 4 BEFORE 2014 D13-14
+#  EVENTOR {"eventorId":27761,"firstName":"Silje Nilsen","lastName":"Berg","club":"Fossum IF","birthYear":2010,"clubId":"80"}
+{"firstName":"Stein Arne","lastName":"Alnæs","club":"Raumar Orientering","participations":[[1981,"H -18"],[1999,"H 35-"],[2001,"H 35-"],[2006,"H ÅPEN"],[2007,"H ÅPEN"],[2008,"H Åpen"]]}
+  RESULT {"firstName":"Stein-Arne","lastName":"Alnæs","club":"Raumar Orientering","participations":[[2010,"H Åpen"]]}
+  # H -18 (age 18), H Åpen (age 45)
+  # H Åpen (age 47), H Åpen (age 47)
+  EVENTOR {"eventorId":43146,"firstName":"Stein-Arne","lastName":"Alnæs","club":"Raumar Orientering","birthYear":1963,"clubId":"281"}
+{"firstName":"Stein-Arne","lastName":"Alnæs","club":"Raumar Orientering","participations":[[2010,"H Åpen"]]}
+  RESULT {"firstName":"Stein Arne","lastName":"Alnæs","club":"Raumar Orientering","participations":[[1981,"H -18"],[1999,"H 35-"],[2001,"H 35-"],[2006,"H ÅPEN"],[2007,"H ÅPEN"],[2008,"H Åpen"]]}
+  # H Åpen (age 47), H Åpen (age 47)
+  # H -18 (age 18), H Åpen (age 45)
+  EVENTOR {"eventorId":43146,"firstName":"Stein-Arne","lastName":"Alnæs","club":"Raumar Orientering","birthYear":1963,"clubId":"281"}
+{"firstName":"Sverre","lastName":"Ottesen","club":"Varegg Fleridrett","participations":[[2007,"H35"]]}
+  RESULT {"eventorId":747,"firstName":"Sverre","lastName":"Ottesen","club":"Varegg Fleridrett","participations":[[1988,"H 19-"],[2008,"H45"],[2009,"H45"],[2010,"H45"],[2011,"H45"],[2013,"H50"],[2016,"H50"],[2017,"H50"],[2018,"H55"],[2019,"H55"],[2022,"H55"],[2023,"H60"]]}
+  # H35 (age 44), H35 (age 44)
+  # H 19- (age 25), H60 (age 60)
+  EVENTOR {"eventorId":747,"firstName":"Sverre","lastName":"Ottesen","club":"Varegg Fleridrett","birthYear":1963,"clubId":"368"}
+{"firstName":"Søren Thrane","lastName":"Ødum","club":"IFK Göteborg Orientering","participations":[[2016,"H15-16"]]}
+  RESULT {"eventorId":29653,"firstName":"Søren","lastName":"Thrane Ødum","club":"IFK Göteborg Orientering","participations":[[2018,"H 17-18E"]]}
+{"firstName":"Terese","lastName":"Jørgensen","club":"OK GORM","participations":[[2007,"D13-14"]]}
+  RESULT {"firstName":"Terese","lastName":"Jørgensen","club":"OK GORM","participations":[[2008,"D13-14"]]}
+{"firstName":"Terese","lastName":"Jørgensen","club":"OK GORM","participations":[[2008,"D13-14"]]}
+  RESULT {"firstName":"Terese","lastName":"Jørgensen","club":"OK GORM","participations":[[2007,"D13-14"]]}
+{"firstName":"Thorrud","lastName":"Magnar","club":"Kongsberg OL","participations":[[2003,"H 45-"]]}
+  RESULT {"firstName":"Magnar","lastName":"Thorrud","club":"Kongsberg OL","participations":[[2005,"H 45"]]}
+{"firstName":"Tor Einar","lastName":"Kvale","club":"Nordre Follo Orientering","participations":[[2004,"H ÅPEN"],[2005,"H ÅPEN"],[2006,"H ÅPEN"]]}
+  RESULT {"firstName":"Tor-Einar","lastName":"Kvale","club":"Nordre Follo Orientering","participations":[[2008,"H Åpen"]]}
+{"firstName":"Tor-Einar","lastName":"Kvale","club":"Nordre Follo Orientering","participations":[[2008,"H Åpen"]]}
+  RESULT {"firstName":"Tor Einar","lastName":"Kvale","club":"Nordre Follo Orientering","participations":[[2004,"H ÅPEN"],[2005,"H ÅPEN"],[2006,"H ÅPEN"]]}
+{"firstName":"Trond Cato","lastName":"Martinsen","club":"Modum OL","participations":[[2004,"H ÅPEN"],[2005,"H ÅPEN"]]}
+  RESULT {"firstName":"Trond Cato","lastName":"Martinsen","club":"Modum OL","participations":[[1992,"H -18"],[1993,"H -18"],[1994,"H -18"],[1995,"H -18"],[1997,"H 19-"],[1998,"H 19-"],[2002,"H ÅPEN"],[2003,"H ÅPEN"]]}
+{"firstName":"Trond Cato","lastName":"Martinsen","club":"Modum OL","participations":[[1992,"H -18"],[1993,"H -18"],[1994,"H -18"],[1995,"H -18"],[1997,"H 19-"],[1998,"H 19-"],[2002,"H ÅPEN"],[2003,"H ÅPEN"]]}
+  RESULT {"firstName":"Trond Cato","lastName":"Martinsen","club":"Modum OL","participations":[[2004,"H ÅPEN"],[2005,"H ÅPEN"]]}
+{"firstName":"Trond","lastName":"Olsen","club":"Løten o-lag","participations":[[2001,"H 35-"],[2002,"H 35-"],[2003,"H 45-"],[2005,"H 45"],[2006,"H45"],[2008,"H45"]]}
+  RESULT {"eventorId":4369,"firstName":"Trond","lastName":"Olsen","club":"Løten o-lag","participations":[[1989,"H 35-"],[1991,"H 35-"],[2009,"H50"],[2010,"H50"],[2013,"H55"],[2014,"H55"],[2015,"H55"],[2016,"H55"],[2017,"H55"],[2018,"H60"],[2019,"H60"]]}
+  # H 35- (age 43), H45 (age 50)
+  # H 35- (age 31), H60 (age 61)
+  # PAY ATTENTION: AGE 31 BEFORE 1989 H 35-
+  EVENTOR {"eventorId":4369,"firstName":"Trond","lastName":"Olsen","club":"Løten o-lag","birthYear":1958,"clubId":"212"}
+{"firstName":"Unni","lastName":"Herrebrøden","club":"OK Øst Birkerød","participations":[[2012,"N-åpen"],[2013,"N-åpen"],[2016,"N-åpen"],[2017,"N-åpen"],[2018,"N-åpen"],[2019,"N-åpen"],[2022,"N2-åpen 17-"]]}
+  RESULT {"eventorId":12119,"firstName":"Unni","lastName":"Herrebrøden","club":"OK Øst Birkerød","participations":[[1991,"D 35-"],[1993,"D 35-"],[1995,"D 35-"],[2000,"D 35-"],[2001,"D 19-"],[2021,"N2-åpen 17-"]]}
+{"firstName":"Vegard Fiane","lastName":"Pedersen","club":"IK Grane Arendal Orientering","participations":[[2011,"H17-18"]]}
+  RESULT {"firstName":"Pedersen Vegard","lastName":"Fiane","club":"IK Grane Arendal Orientering","participations":[[2005,"H 11-12"],[2006,"H13-14"],[2007,"H13-14"],[2008,"H15-16"],[2009,"H15-16"]]}
+{"firstName":"Vegard","lastName":"Peikli","club":"Tyrving IL","participations":[[1989,"H -18"],[1991,"H -18"],[1993,"H 19-"]]}
+  RESULT {"eventorId":514,"firstName":"Vegard","lastName":"Peikli","club":"Tyrving IL","participations":[[2016,"H40"],[2017,"H40"],[2021,"H45"],[2022,"H45"],[2023,"H50"]]}
+  # H -18 (age 16), H 19- (age 20)
+  # H40 (age 43), H50 (age 50)
+  EVENTOR {"eventorId":514,"firstName":"Vegard","lastName":"Peikli","club":"Tyrving IL","birthYear":1973,"clubId":"163"}
+{"firstName":"Åge Geir","lastName":"Skatter","club":"Notodden OL","participations":[[2006,"H45"]]}
+  RESULT {"firstName":"Åge-Geir","lastName":"Skatter","club":"Notodden OL","participations":[[2010,"H50"]]}
+  # H45 (age 46), H45 (age 46)
+  # H50 (age 50), H50 (age 50)
+  EVENTOR {"eventorId":5406,"firstName":"Åge-Geir","lastName":"Skatter","club":"Notodden OL","birthYear":1960,"clubId":"243"}
+{"firstName":"Åge-Geir","lastName":"Skatter","club":"Notodden OL","participations":[[2010,"H50"]]}
+  RESULT {"firstName":"Åge Geir","lastName":"Skatter","club":"Notodden OL","participations":[[2006,"H45"]]}
+  # H50 (age 50), H50 (age 50)
+  # H45 (age 46), H45 (age 46)
+  EVENTOR {"eventorId":5406,"firstName":"Åge-Geir","lastName":"Skatter","club":"Notodden OL","birthYear":1960,"clubId":"243"}

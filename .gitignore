@@ -1,3 +1,4 @@
 /node_modules
 /data/*
 !/data/2024.jsonl
+!/data/20??-merge-*.txt
