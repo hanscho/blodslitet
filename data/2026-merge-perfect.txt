@@ -1,0 +1,5 @@
+{"firstName":"Rune","lastName":"Sørensen","club":"Sturla, IF","participations":[[2026,"B-åpen 17-"]]}
+  RESULT {"eventorId":1571,"firstName":"Rune","lastName":"Sørensen","club":"Sturla, IF","participations":[[2014,"Herrer åpe"],[2016,"H-aapen"],[2022,"H-åpen"],[2024,"H-åpen"]]}
+  # B-åpen 17- (age 59), B-åpen 17- (age 59)
+  # Herrer åpe (age 47), H-åpen (age 57)
+  EVENTOR {"eventorId":1571,"firstName":"Rune","lastName":"Sørensen","club":"Sturla, IF","birthYear":1967,"clubId":"133"}

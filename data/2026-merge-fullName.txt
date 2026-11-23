@@ -1,0 +1,5 @@
+{"firstName":"Audun","lastName":"Hokholt","participations":[[2026,"B-åpen 17-"]]}
+  RESULT {"firstName":"Audun","lastName":"Hokholt","club":"Nordre Follo Orientering","participations":[[2005,"H 13-14"],[2006,"H13-14"]]}
+  # B-åpen 17- (age 34), B-åpen 17- (age 34)
+  # H 13-14 (age 13), H13-14 (age 14)
+  EVENTOR {"eventorId":7798,"firstName":"Audun","lastName":"Hokholt","birthYear":1992}

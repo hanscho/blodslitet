@@ -1,0 +1,9 @@
+#{"firstName":"Astrid","lastName":"Svendgård","participations":[[2026,"C-åpen 10-16"]]}
+#  # C-åpen 10-16 (age 46), C-åpen 10-16 (age 46)
+#  EVENTOR {"eventorId":36502,"firstName":"Astrid","lastName":"Svendgård","club":"Frol IL","birthYear":1980,"clubId":"84"}
+{"firstName":"Brage Aleksander","lastName":"Borgen-Johansen","participations":[[2026,"C-åpen 10-16"]]}
+  # C-åpen 10-16 (age 12), C-åpen 10-16 (age 12)
+  EVENTOR {"eventorId":98733,"firstName":"Brage Aleksander","lastName":"Borgen-Johansen","birthYear":2014}
+{"firstName":"Matthew","lastName":"Inman","club":"Nyköpings OK","participations":[[2026,"B-åpen 17-"]]}
+  # B-åpen 17- (age 17), B-åpen 17- (age 17)
+  EVENTOR {"eventorId":97417,"firstName":"Matthew","lastName":"Inman","club":"Scottish Junior Squad","birthYear":2009,"clubId":"662"}

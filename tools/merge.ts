@@ -28,6 +28,12 @@ function main(): void {
       competitors = mergeCompetitors(competitors, '2025-merge-perfect.eventor.txt');
       competitors = mergeCompetitors(competitors, '2025-merge-superset.txt');
       break;
+    case 2026:
+      competitors = mergeCompetitors(competitors, '2026-merge-perfect.txt');
+      competitors = mergeCompetitors(competitors, '2026-merge-fullName.txt');
+      competitors = mergeCompetitors(competitors, '2026-merge-fullName.eventor.txt');
+      competitors = mergeCompetitors(competitors, '2026-merge-clubAndSuperset.txt');
+      break;
     default:
       throw new Error(`Merge for year ${args.year} not implemented`);
   }

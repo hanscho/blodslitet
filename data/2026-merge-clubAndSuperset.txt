@@ -1,0 +1,5 @@
+{"firstName":"Helle","lastName":"Lorentzen","club":"Nydalens SK","participations":[[2026,"D40"]]}
+  RESULT {"eventorId":6733,"firstName":"Helle Svare","lastName":"Lorentzen","club":"Nydalens SK","participations":[[2009,"D ÅPEN"],[2011,"D Åpen"]]}
+  # D40 (age 42), D40 (age 42)
+  # D ÅPEN (age 25), D Åpen (age 27)
+  EVENTOR {"eventorId":6733,"firstName":"Helle Svare","lastName":"Lorentzen","club":"Nydalens SK","birthYear":1984,"clubId":"245"}
