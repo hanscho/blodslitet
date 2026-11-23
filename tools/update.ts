@@ -244,7 +244,13 @@ function reportResults(year: number, results: Result[]): void {
 
 function main(): void {
   let { competitors, clubs } = webRead();
-  const { year, results } = getResults();
+  let { year, results } = getResults();
+
+  if (year === 2026) {
+    // Norwegian championship classes were duplicated to filter out non-Norwegian competitors
+    results = results.filter((r) => !r.raceClass.endsWith('NM'));
+  }
+
   reportResults(year, results);
   applyResults(competitors, clubs, year, results);
 
